@@ -2,6 +2,7 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ * JAMES SUPERO BSIT-201 (DEC. 22, 2018)
  */
 package versusgame;
 
@@ -83,6 +84,10 @@ public class VersusGame {
                     System.out.println("");
                     p1.setUseDefense(true, p1);
                     break;
+                default: 
+                    System.out.println("Choices not available. Choose available choices!");
+                    new VersusGame();
+                
             }
             player_act=1;
          }else if(player_act == 1){

@@ -2,7 +2,9 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ * JAMES SUPERO BSIT-201 (DEC. 22, 2018)
  */
+
 package versusgame;
 
 /**
@@ -66,7 +68,9 @@ public class Games {
       }
     }else{
     player1.usesp = false;
+    System.out.println("");
     System.out.println("Oops! You don't have enough Special Attack! = Loss Turn");
+    System.out.println("");
     }
     
     
@@ -80,7 +84,9 @@ public class Games {
        else{
        this.usedefense = usedefense;    
        player.usedefense = false;
+       System.out.println("");
        System.out.println("Oops! You don't have enough Defense! = Loss Turn");
+       System.out.println("");
        }
       
     }
